@@ -111,5 +111,3 @@ def predict():
 
     return jsonify({"Seriousness": int(pred)})
 
-if __name__ == "__main__":
-    app.run(debug=True)
